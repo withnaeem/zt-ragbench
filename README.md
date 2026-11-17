@@ -1,6 +1,6 @@
 # ZT-RAGBench
 
-Code and data generators for *Authorization Across the Enterprise RAG Request Lifecycle: An Empirical Zero-Trust Evaluation of Retrieval-Time and Release-Time Data Leakage* (N. Shahzad).
+Code and data generators for *Authorization Across the Enterprise RAG Request Lifecycle: An Empirical Zero-Trust Evaluation of Retrieval-Time and Release-Time Data Leakage* (Naeem Shahzad).
 
 ZT-RAGBench is a synthetic multi-tenant enterprise corpus with attribute-based access-control (ABAC) policies. It compares six RAG access-control architectures (A0–A5) under five experiments:
 
