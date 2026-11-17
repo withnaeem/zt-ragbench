@@ -1,0 +1,787 @@
+[
+ {
+  "A0 Shared index, no ACL": {
+   "benign": {
+    "exposure": 0.9986666666666667,
+    "unauth_per_q": 3.728,
+    "target_hit": 0.4573333333333333,
+    "fill": 1.0,
+    "oracle_overlap": 0.2544
+   },
+   "insider": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.159,
+    "target_hit": 0.257,
+    "fill": 1.0,
+    "oracle_overlap": 0.1682
+   },
+   "cross": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.172,
+    "target_hit": 0.246,
+    "fill": 1.0,
+    "oracle_overlap": 0.1656
+   },
+   "latency_ms": 0.03825999999662599
+  },
+  "A1 Tenant-partitioned index": {
+   "benign": {
+    "exposure": 0.916,
+    "unauth_per_q": 2.0593333333333335,
+    "target_hit": 0.6673333333333333,
+    "fill": 1.0,
+    "oracle_overlap": 0.5881333333333334
+   },
+   "insider": {
+    "exposure": 0.978,
+    "unauth_per_q": 2.623,
+    "target_hit": 0.441,
+    "fill": 1.0,
+    "oracle_overlap": 0.47540000000000004
+   },
+   "cross": {
+    "exposure": 0.94,
+    "unauth_per_q": 2.356,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 0.5288
+   },
+   "latency_ms": 0.041118000012829725
+  },
+  "A2 Post-retrieval filter": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.4573333333333333,
+    "fill": 0.2544,
+    "oracle_overlap": 0.2544
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.1682,
+    "oracle_overlap": 0.1682
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.1656,
+    "oracle_overlap": 0.1656
+   },
+   "latency_ms": 0.036046499985786795
+  },
+  "A3 Post-filter + 4x over-fetch": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7326666666666667,
+    "fill": 0.7562666666666665,
+    "oracle_overlap": 0.7562666666666665
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6344000000000001,
+    "oracle_overlap": 0.6344000000000001
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6616000000000001,
+    "oracle_overlap": 0.6616000000000001
+   },
+   "latency_ms": 0.035283000016761434
+  },
+  "A4 Pre-filter (ACL snapshot)": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7953333333333333,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "latency_ms": 0.033959500001401466
+  },
+  "A5 Zero-trust pipeline": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7753333333333333,
+    "fill": 0.9817333333333332,
+    "oracle_overlap": 0.9817333333333332
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9838000000000001,
+    "oracle_overlap": 0.9838000000000001
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9804,
+    "oracle_overlap": 0.9804
+   },
+   "latency_ms": 0.094704000019874
+  },
+  "_meta": {
+   "n_chunks": 18000,
+   "n_docs": 6000,
+   "n_users": 300,
+   "n_queries": {
+    "benign": 1500,
+    "insider": 1000,
+    "cross": 500
+   },
+   "authorised_doc_fraction": 0.52363
+  }
+ },
+ {
+  "A0 Shared index, no ACL": {
+   "benign": {
+    "exposure": 1.0,
+    "unauth_per_q": 3.783333333333333,
+    "target_hit": 0.454,
+    "fill": 1.0,
+    "oracle_overlap": 0.24333333333333335
+   },
+   "insider": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.226,
+    "target_hit": 0.244,
+    "fill": 1.0,
+    "oracle_overlap": 0.15480000000000002
+   },
+   "cross": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.162,
+    "target_hit": 0.276,
+    "fill": 1.0,
+    "oracle_overlap": 0.1676
+   },
+   "latency_ms": 0.038384499987387244
+  },
+  "A1 Tenant-partitioned index": {
+   "benign": {
+    "exposure": 0.9126666666666666,
+    "unauth_per_q": 2.0986666666666665,
+    "target_hit": 0.654,
+    "fill": 1.0,
+    "oracle_overlap": 0.5802666666666666
+   },
+   "insider": {
+    "exposure": 0.975,
+    "unauth_per_q": 2.737,
+    "target_hit": 0.418,
+    "fill": 1.0,
+    "oracle_overlap": 0.4526
+   },
+   "cross": {
+    "exposure": 0.942,
+    "unauth_per_q": 2.378,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 0.5244
+   },
+   "latency_ms": 0.040879999971821235
+  },
+  "A2 Post-retrieval filter": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.454,
+    "fill": 0.24333333333333335,
+    "oracle_overlap": 0.24333333333333335
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.15480000000000002,
+    "oracle_overlap": 0.15480000000000002
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.1676,
+    "oracle_overlap": 0.1676
+   },
+   "latency_ms": 0.036047000008920804
+  },
+  "A3 Post-filter + 4x over-fetch": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.71,
+    "fill": 0.7326666666666667,
+    "oracle_overlap": 0.7326666666666667
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6122000000000001,
+    "oracle_overlap": 0.6122000000000001
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6464,
+    "oracle_overlap": 0.6464
+   },
+   "latency_ms": 0.03522900001939888
+  },
+  "A4 Pre-filter (ACL snapshot)": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7933333333333333,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "latency_ms": 0.033539499980861365
+  },
+  "A5 Zero-trust pipeline": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7806666666666666,
+    "fill": 0.9853333333333333,
+    "oracle_overlap": 0.9853333333333333
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9853999999999999,
+    "oracle_overlap": 0.9853999999999999
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9824,
+    "oracle_overlap": 0.9824
+   },
+   "latency_ms": 0.09573849996513673
+  },
+  "_meta": {
+   "n_chunks": 18000,
+   "n_docs": 6000,
+   "n_users": 300,
+   "n_queries": {
+    "benign": 1500,
+    "insider": 1000,
+    "cross": 500
+   },
+   "authorised_doc_fraction": 0.51236
+  }
+ },
+ {
+  "A0 Shared index, no ACL": {
+   "benign": {
+    "exposure": 1.0,
+    "unauth_per_q": 3.727333333333333,
+    "target_hit": 0.4693333333333333,
+    "fill": 1.0,
+    "oracle_overlap": 0.2545333333333334
+   },
+   "insider": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.174,
+    "target_hit": 0.26,
+    "fill": 1.0,
+    "oracle_overlap": 0.16519999999999999
+   },
+   "cross": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.15,
+    "target_hit": 0.264,
+    "fill": 1.0,
+    "oracle_overlap": 0.17
+   },
+   "latency_ms": 0.03711049998855742
+  },
+  "A1 Tenant-partitioned index": {
+   "benign": {
+    "exposure": 0.906,
+    "unauth_per_q": 1.974,
+    "target_hit": 0.6826666666666666,
+    "fill": 1.0,
+    "oracle_overlap": 0.6052
+   },
+   "insider": {
+    "exposure": 0.979,
+    "unauth_per_q": 2.679,
+    "target_hit": 0.428,
+    "fill": 1.0,
+    "oracle_overlap": 0.46420000000000006
+   },
+   "cross": {
+    "exposure": 0.938,
+    "unauth_per_q": 2.37,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 0.526
+   },
+   "latency_ms": 0.03951350001329956
+  },
+  "A2 Post-retrieval filter": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.4693333333333333,
+    "fill": 0.2545333333333334,
+    "oracle_overlap": 0.2545333333333334
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.16519999999999999,
+    "oracle_overlap": 0.16519999999999999
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.17,
+    "oracle_overlap": 0.17
+   },
+   "latency_ms": 0.03490950001605597
+  },
+  "A3 Post-filter + 4x over-fetch": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.738,
+    "fill": 0.7586666666666667,
+    "oracle_overlap": 0.7586666666666667
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6217999999999999,
+    "oracle_overlap": 0.6217999999999999
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6456,
+    "oracle_overlap": 0.6456
+   },
+   "latency_ms": 0.03419349999944643
+  },
+  "A4 Pre-filter (ACL snapshot)": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7926666666666666,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "latency_ms": 0.0328129999900284
+  },
+  "A5 Zero-trust pipeline": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7753333333333333,
+    "fill": 0.9758666666666667,
+    "oracle_overlap": 0.9758666666666667
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9794,
+    "oracle_overlap": 0.9794
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9832000000000001,
+    "oracle_overlap": 0.9832000000000001
+   },
+   "latency_ms": 0.09084300000949952
+  },
+  "_meta": {
+   "n_chunks": 18000,
+   "n_docs": 6000,
+   "n_users": 300,
+   "n_queries": {
+    "benign": 1500,
+    "insider": 1000,
+    "cross": 500
+   },
+   "authorised_doc_fraction": 0.5307550000000001
+  }
+ },
+ {
+  "A0 Shared index, no ACL": {
+   "benign": {
+    "exposure": 0.9973333333333333,
+    "unauth_per_q": 3.711333333333333,
+    "target_hit": 0.43133333333333335,
+    "fill": 1.0,
+    "oracle_overlap": 0.25773333333333337
+   },
+   "insider": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.173,
+    "target_hit": 0.259,
+    "fill": 1.0,
+    "oracle_overlap": 0.16540000000000002
+   },
+   "cross": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.112,
+    "target_hit": 0.248,
+    "fill": 1.0,
+    "oracle_overlap": 0.17760000000000004
+   },
+   "latency_ms": 0.03819500000190601
+  },
+  "A1 Tenant-partitioned index": {
+   "benign": {
+    "exposure": 0.9013333333333333,
+    "unauth_per_q": 1.9893333333333334,
+    "target_hit": 0.6486666666666666,
+    "fill": 1.0,
+    "oracle_overlap": 0.6021333333333334
+   },
+   "insider": {
+    "exposure": 0.974,
+    "unauth_per_q": 2.615,
+    "target_hit": 0.426,
+    "fill": 1.0,
+    "oracle_overlap": 0.477
+   },
+   "cross": {
+    "exposure": 0.952,
+    "unauth_per_q": 2.298,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 0.5404
+   },
+   "latency_ms": 0.04045299999688723
+  },
+  "A2 Post-retrieval filter": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.43133333333333335,
+    "fill": 0.25773333333333337,
+    "oracle_overlap": 0.25773333333333337
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.16540000000000002,
+    "oracle_overlap": 0.16540000000000002
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.17760000000000004,
+    "oracle_overlap": 0.17760000000000004
+   },
+   "latency_ms": 0.03599200002213365
+  },
+  "A3 Post-filter + 4x over-fetch": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7066666666666667,
+    "fill": 0.7637333333333334,
+    "oracle_overlap": 0.7637333333333334
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6337999999999999,
+    "oracle_overlap": 0.6337999999999999
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6671999999999999,
+    "oracle_overlap": 0.6671999999999999
+   },
+   "latency_ms": 0.03517700000088553
+  },
+  "A4 Pre-filter (ACL snapshot)": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.776,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "latency_ms": 0.034483000007412556
+  },
+  "A5 Zero-trust pipeline": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.758,
+    "fill": 0.9765333333333333,
+    "oracle_overlap": 0.9765333333333333
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9846,
+    "oracle_overlap": 0.9846
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9796,
+    "oracle_overlap": 0.9796
+   },
+   "latency_ms": 0.09545250000542183
+  },
+  "_meta": {
+   "n_chunks": 18000,
+   "n_docs": 6000,
+   "n_users": 300,
+   "n_queries": {
+    "benign": 1500,
+    "insider": 1000,
+    "cross": 500
+   },
+   "authorised_doc_fraction": 0.5304933333333333
+  }
+ },
+ {
+  "A0 Shared index, no ACL": {
+   "benign": {
+    "exposure": 0.9993333333333333,
+    "unauth_per_q": 3.7533333333333334,
+    "target_hit": 0.45866666666666667,
+    "fill": 1.0,
+    "oracle_overlap": 0.24933333333333332
+   },
+   "insider": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.198,
+    "target_hit": 0.25,
+    "fill": 1.0,
+    "oracle_overlap": 0.16040000000000001
+   },
+   "cross": {
+    "exposure": 1.0,
+    "unauth_per_q": 4.152,
+    "target_hit": 0.246,
+    "fill": 1.0,
+    "oracle_overlap": 0.1696
+   },
+   "latency_ms": 0.03763400002299022
+  },
+  "A1 Tenant-partitioned index": {
+   "benign": {
+    "exposure": 0.918,
+    "unauth_per_q": 2.026666666666667,
+    "target_hit": 0.6846666666666666,
+    "fill": 1.0,
+    "oracle_overlap": 0.5946666666666667
+   },
+   "insider": {
+    "exposure": 0.981,
+    "unauth_per_q": 2.685,
+    "target_hit": 0.433,
+    "fill": 1.0,
+    "oracle_overlap": 0.463
+   },
+   "cross": {
+    "exposure": 0.924,
+    "unauth_per_q": 2.352,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 0.5296000000000001
+   },
+   "latency_ms": 0.04264099999318205
+  },
+  "A2 Post-retrieval filter": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.45866666666666667,
+    "fill": 0.24933333333333332,
+    "oracle_overlap": 0.24933333333333332
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.16040000000000001,
+    "oracle_overlap": 0.16040000000000001
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.1696,
+    "oracle_overlap": 0.1696
+   },
+   "latency_ms": 0.03518549999625975
+  },
+  "A3 Post-filter + 4x over-fetch": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7286666666666667,
+    "fill": 0.7502666666666667,
+    "oracle_overlap": 0.7502666666666667
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6444,
+    "oracle_overlap": 0.6444
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.6484,
+    "oracle_overlap": 0.6484
+   },
+   "latency_ms": 0.034462500025256304
+  },
+  "A4 Pre-filter (ACL snapshot)": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.7993333333333333,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 1.0,
+    "oracle_overlap": 1.0
+   },
+   "latency_ms": 0.033812000026500755
+  },
+  "A5 Zero-trust pipeline": {
+   "benign": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.786,
+    "fill": 0.9826666666666667,
+    "oracle_overlap": 0.9826666666666667
+   },
+   "insider": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9818,
+    "oracle_overlap": 0.9818
+   },
+   "cross": {
+    "exposure": 0.0,
+    "unauth_per_q": 0.0,
+    "target_hit": 0.0,
+    "fill": 0.9856,
+    "oracle_overlap": 0.9856
+   },
+   "latency_ms": 0.10749349999628066
+  },
+  "_meta": {
+   "n_chunks": 18000,
+   "n_docs": 6000,
+   "n_users": 300,
+   "n_queries": {
+    "benign": 1500,
+    "insider": 1000,
+    "cross": 500
+   },
+   "authorised_doc_fraction": 0.5288966666666667
+  }
+ }
+]

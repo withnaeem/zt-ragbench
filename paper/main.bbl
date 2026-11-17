@@ -1,0 +1,189 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alghamdi(2026)]{alghamdi2026review}
+A.~A. Alghamdi.
+\newblock Security, privacy, and trustworthy design for retrieval-augmented
+  generation systems.
+\newblock \emph{Electronics}, 15\penalty0 (22):\penalty0 5229, 2026.
+\newblock \doi{10.3390/electronics15225229}.
+
+\bibitem[Bang(2023)]{bang2023gptcache}
+Fu~Bang.
+\newblock {GPTCache}: An open-source semantic cache for {LLM} applications
+  enabling faster answers and cost savings.
+\newblock In \emph{Proceedings of the 3rd Workshop for Natural Language
+  Processing Open Source Software (NLP-OSS 2023)}, pages 212--218, 2023.
+\newblock \doi{10.18653/v1/2023.nlposs-1.24}.
+
+\bibitem[Bhatt et~al.(2025)Bhatt, Rajore, Aggarwal, Ananthanarayanan, Chandra,
+  Chandran, Choudhury, Gupta, Kiciman, Pandey, Setty, Sharma, and
+  Zhao]{bhatt2025participant}
+Shashank~Shreedhar Bhatt, Tanmay Rajore, Khushboo Aggarwal, Ganesh
+  Ananthanarayanan, Ranveer Chandra, Nishanth Chandran, Suyash Choudhury, Divya
+  Gupta, Emre Kiciman, Shrey Pandey, Srinath Setty, Rahul Sharma, and Teijia
+  Zhao.
+\newblock Enterprise {AI} must enforce participant-aware access control.
+\newblock \emph{arXiv preprint arXiv:2509.14608}, 2025.
+
+\bibitem[Cappalli and Tulshibagwale(2025)]{caep2025}
+Tim Cappalli and Atul Tulshibagwale.
+\newblock {OpenID} continuous access evaluation profile 1.0 (final
+  specification).
+\newblock OpenID Foundation, Shared Signals Working Group.
+  \url{https://openid.net/specs/openid-caep-1_0.html}, 2025.
+
+\bibitem[Chandramouli and Butcher(2023)]{nist800207a}
+Ramaswamy Chandramouli and Zack Butcher.
+\newblock A zero trust architecture model for access control in cloud-native
+  applications in multi-location environments.
+\newblock Technical Report NIST Special Publication 800-207A, National
+  Institute of Standards and Technology, 2023.
+
+\bibitem[Deerwester et~al.(1990)Deerwester, Dumais, Furnas, Landauer, and
+  Harshman]{deerwester1990}
+Scott Deerwester, Susan~T. Dumais, George~W. Furnas, Thomas~K. Landauer, and
+  Richard Harshman.
+\newblock Indexing by latent semantic analysis.
+\newblock \emph{Journal of the American Society for Information Science},
+  41\penalty0 (6):\penalty0 391--407, 1990.
+
+\bibitem[Denning(1976)]{denning1976}
+Dorothy~E. Denning.
+\newblock A lattice model of secure information flow.
+\newblock \emph{Communications of the ACM}, 19\penalty0 (5):\penalty0 236--243,
+  1976.
+
+\bibitem[Greshake et~al.(2023)Greshake, Abdelnabi, Mishra, Endres, Holz, and
+  Fritz]{greshake2023}
+Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten
+  Holz, and Mario Fritz.
+\newblock Not what you've signed up for: Compromising real-world
+  {LLM}-integrated applications with indirect prompt injection.
+\newblock In \emph{Proceedings of the 16th ACM Workshop on Artificial
+  Intelligence and Security (AISec)}, pages 79--90, 2023.
+
+\bibitem[Hu et~al.(2014)Hu, Ferraiolo, Kuhn, Schnitzer, Sandlin, Miller, and
+  Scarfone]{nist800162}
+Vincent~C. Hu, David Ferraiolo, Rick Kuhn, Adam Schnitzer, Kenneth Sandlin,
+  Robert Miller, and Karen Scarfone.
+\newblock Guide to attribute based access control ({ABAC}) definition and
+  considerations.
+\newblock Technical Report NIST Special Publication 800-162, National Institute
+  of Standards and Technology, 2014.
+
+\bibitem[Jeong and Lee(2025)]{jeong2025permission}
+Jooyoung Jeong and Sang-goo Lee.
+\newblock Permission-aware {RAG}: Identity and access management ({IAM})-based
+  access filtering in multi-resource environments.
+\newblock \emph{IEEE Access}, 13:\penalty0 192819--192835, 2025.
+\newblock \doi{10.1109/ACCESS.2025.3628960}.
+
+\bibitem[{Kingdom of Saudi Arabia}(2023)]{pdpl2023}
+{Kingdom of Saudi Arabia}.
+\newblock Personal data protection law, issued by royal decree no. {M/19} (16
+  september 2021), amended by royal decree no. {M/148} (27 march 2023); in
+  force 14 september 2023.
+\newblock Saudi Data and Artificial Intelligence Authority (SDAIA), 2023.
+
+\bibitem[Lewis et~al.(2020)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal,
+  K{\"u}ttler, Lewis, Yih, Rockt{\"a}schel, Riedel, and Kiela]{lewis2020rag}
+Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir
+  Karpukhin, Naman Goyal, Heinrich K{\"u}ttler, Mike Lewis, Wen-tau Yih, Tim
+  Rockt{\"a}schel, Sebastian Riedel, and Douwe Kiela.
+\newblock Retrieval-augmented generation for knowledge-intensive {NLP} tasks.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~33, pages 9459--9474, 2020.
+
+\bibitem[Liang et~al.(2025)Liang, Niu, Li, Zhang, Wang, Xiong, Fan, Tang, Zhao,
+  Yang, Song, and Wang]{liang2025saferag}
+Xun Liang, Simin Niu, Zhiyu Li, Sensen Zhang, Hanyu Wang, Feiyu Xiong, Zhaoxin
+  Fan, Bo~Tang, Jihao Zhao, Jiawei Yang, Shichao Song, and Mengwei Wang.
+\newblock {SafeRAG}: Benchmarking security in retrieval-augmented generation of
+  large language model.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 4609--4631,
+  2025.
+\newblock \doi{10.18653/v1/2025.acl-long.230}.
+
+\bibitem[Lilienthal and Hong(2025)]{lilienthal2025toctou}
+Derek Lilienthal and Sanghyun Hong.
+\newblock Mind the gap: Time-of-check to time-of-use vulnerabilities in
+  {LLM}-enabled agents.
+\newblock \emph{arXiv preprint arXiv:2508.17155}, 2025.
+
+\bibitem[Morris et~al.(2023)Morris, Kuleshov, Shmatikov, and Rush]{morris2023}
+John Morris, Volodymyr Kuleshov, Vitaly Shmatikov, and Alexander Rush.
+\newblock Text embeddings reveal (almost) as much as text.
+\newblock In \emph{Proceedings of the 2023 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 12448--12460, 2023.
+\newblock \doi{10.18653/v1/2023.emnlp-main.765}.
+
+\bibitem[{OWASP Foundation}(2025)]{owasp2025}
+{OWASP Foundation}.
+\newblock {OWASP} top 10 for {LLM} applications 2025: {LLM08:2025} vector and
+  embedding weaknesses.
+\newblock
+  \url{https://genai.owasp.org/llmrisk/llm082025-vector-and-embedding-weaknesses/},
+  2025.
+
+\bibitem[Parakhin(2026)]{parakhin2026}
+Vladyslav Parakhin.
+\newblock The bureaucracy of speed: Structural equivalence between memory
+  consistency models and multi-agent authorization revocation.
+\newblock \emph{arXiv preprint arXiv:2603.09875}, 2026.
+
+\bibitem[Qi et~al.(2024)Qi, Zhang, Xing, Kakade, and Lakkaraju]{qi2024spill}
+Zhenting Qi, Hanlin Zhang, Eric Xing, Sham Kakade, and Himabindu Lakkaraju.
+\newblock Follow my instruction and spill the beans: Scalable data extraction
+  from retrieval-augmented generation systems.
+\newblock \emph{arXiv preprint arXiv:2402.17840}, 2024.
+
+\bibitem[Rose et~al.(2020)Rose, Borchert, Mitchell, and Connelly]{nist800207}
+Scott Rose, Oliver Borchert, Stu Mitchell, and Sean Connelly.
+\newblock Zero trust architecture.
+\newblock Technical Report NIST Special Publication 800-207, National Institute
+  of Standards and Technology, 2020.
+
+\bibitem[Saltzer and Schroeder(1975)]{saltzer1975}
+Jerome~H. Saltzer and Michael~D. Schroeder.
+\newblock The protection of information in computer systems.
+\newblock \emph{Proceedings of the IEEE}, 63\penalty0 (9):\penalty0 1278--1308,
+  1975.
+
+\bibitem[Saxena et~al.(2026)Saxena, Shailendra, Kadel, Islam, and
+  Sharma]{saxena2026pppa}
+Urvashi~Rahul Saxena, Samar Shailendra, Rajan Kadel, Mohammad~Tahidul Islam,
+  and Aakanksha Sharma.
+\newblock Privacy-provisioned-permission-aware {RAG} in cloud using identity
+  and access management, trust and large-language models ({PPPARITL}).
+\newblock \emph{Scientific Reports}, 2026.
+\newblock \doi{10.1038/s41598-026-71936-x}.
+
+\bibitem[Shen et~al.(2026)Shen, Toyoda, and Leung]{shen2026revoked}
+Y.~T. Shen, K.~Toyoda, and A.~Leung.
+\newblock Revoked but still authoritative: An empirical study of revocation
+  enforcement in agent-memory systems.
+\newblock \emph{arXiv preprint arXiv:2609.08258}, 2026.
+
+\bibitem[Zeng et~al.(2024)Zeng, Zhang, He, Liu, Xing, Xu, Ren, Chang, Wang,
+  Yin, and Tang]{zeng2024good}
+Shenglai Zeng, Jiankun Zhang, Pengfei He, Yiding Liu, Yue Xing, Han Xu, Jie
+  Ren, Yi~Chang, Shuaiqiang Wang, Dawei Yin, and Jiliang Tang.
+\newblock The good and the bad: Exploring privacy issues in retrieval-augmented
+  generation ({RAG}).
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  ACL 2024}, pages 4505--4524, 2024.
+\newblock \doi{10.18653/v1/2024.findings-acl.267}.
+
+\bibitem[Zou et~al.(2025)Zou, Geng, Wang, and Jia]{zou2025poisonedrag}
+Wei Zou, Runpeng Geng, Binghui Wang, and Jinyuan Jia.
+\newblock {PoisonedRAG}: Knowledge corruption attacks to retrieval-augmented
+  generation of large language models.
+\newblock In \emph{34th USENIX Security Symposium}, 2025.
+
+\end{thebibliography}

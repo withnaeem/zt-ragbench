@@ -1,0 +1,1372 @@
+[
+ {
+  "chat": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 2.95,
+     "p_any_unsafe": 0.785,
+     "exposure_window_s": 106.11965189149709,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 204.72,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.165,
+     "p_any_unsafe": 0.165,
+     "exposure_window_s": 0.6654383395467278,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 207.33,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.045,
+     "p_any_unsafe": 0.045,
+     "exposure_window_s": 0.07569291564439026,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.984803857610276,
+     "overhead_p95_ms": 22.651647058128198,
+     "requests_per_event": 205.155,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.05,
+     "p_any_unsafe": 0.05,
+     "exposure_window_s": 0.07052847786696702,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.008617676793417,
+     "overhead_p95_ms": 22.776635854537716,
+     "requests_per_event": 206.165,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.98969906394214,
+     "overhead_p95_ms": 91.49359739704244,
+     "requests_per_event": 204.965,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.15,
+    "60": 0.53,
+    "300": 2.95,
+    "900": 9.42,
+    "3600": 37.005
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.025,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.04,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.06,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.13,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.01,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.01,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.04,
+     "S3": 0.03,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.16,
+     "S3": 0.145,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.385,
+     "S3": 0.375,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.0,
+    "0.1": 0.0,
+    "0.25": 0.01
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 29.12,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 12.38,
+     "checks_per_request": 1.0273512818681712
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 4.585,
+     "checks_per_request": 2.507891166178676
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 1.325,
+     "checks_per_request": 8.547858792163584
+    }
+   }
+  },
+  "agentic": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 1.855,
+     "p_any_unsafe": 0.915,
+     "exposure_window_s": 165.02487383036598,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.695,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.635,
+     "p_any_unsafe": 0.635,
+     "exposure_window_s": 36.41711296273573,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.645,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.04,
+     "p_any_unsafe": 0.04,
+     "exposure_window_s": 0.06810937839571124,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.998411074265354,
+     "overhead_p95_ms": 22.782667709225606,
+     "requests_per_event": 67.39,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.04,
+     "p_any_unsafe": 0.04,
+     "exposure_window_s": 0.08695104373932622,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.05920919954538,
+     "overhead_p95_ms": 22.870594708818476,
+     "requests_per_event": 67.4,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 40.10071768054971,
+     "overhead_p95_ms": 91.85146361480962,
+     "requests_per_event": 67.415,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.69,
+    "60": 0.81,
+    "300": 1.855,
+    "900": 4.8,
+    "3600": 15.855
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.025,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.025,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.04,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.04,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.005,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.005,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.025,
+     "S3": 0.02,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.08,
+     "S3": 0.08,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.26,
+     "S3": 0.255,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.005,
+    "0.1": 0.015,
+    "0.25": 0.04
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 87.725,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 10.725,
+     "checks_per_request": 8.126104240282686
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 2.405,
+     "checks_per_request": 38.62860718492344
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 0.61,
+     "checks_per_request": 153.02731154299175
+    }
+   }
+  }
+ },
+ {
+  "chat": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 3.19,
+     "p_any_unsafe": 0.84,
+     "exposure_window_s": 117.20201864157893,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 203.43,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.155,
+     "p_any_unsafe": 0.155,
+     "exposure_window_s": 0.5374919611099347,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 205.055,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.05,
+     "p_any_unsafe": 0.05,
+     "exposure_window_s": 0.061236707190306564,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.952177914122169,
+     "overhead_p95_ms": 22.484846318893673,
+     "requests_per_event": 207.2,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.06,
+     "p_any_unsafe": 0.06,
+     "exposure_window_s": 0.07318219263555534,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.998928853494935,
+     "overhead_p95_ms": 22.76972983641807,
+     "requests_per_event": 207.16,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.84304279490358,
+     "overhead_p95_ms": 89.9623695854897,
+     "requests_per_event": 206.135,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.165,
+    "60": 0.595,
+    "300": 2.895,
+    "900": 9.61,
+    "3600": 34.35
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.035,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.055,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.05,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.08,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.015,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.02,
+     "S3": 0.01,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.055,
+     "S3": 0.05,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.11,
+     "S3": 0.11,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.4,
+     "S3": 0.375,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.01,
+    "0.1": 0.025,
+    "0.25": 0.035
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 26.895,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 7.395,
+     "checks_per_request": 1.02749689974244
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 3.695,
+     "checks_per_request": 2.5067490222264617
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 0.85,
+     "checks_per_request": 8.541042640465516
+    }
+   }
+  },
+  "agentic": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 1.82,
+     "p_any_unsafe": 0.915,
+     "exposure_window_s": 157.79684973713083,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.4,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.635,
+     "p_any_unsafe": 0.635,
+     "exposure_window_s": 36.84846493306392,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.295,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.025,
+     "p_any_unsafe": 0.025,
+     "exposure_window_s": 0.03229301620830029,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.072576269420448,
+     "overhead_p95_ms": 22.792232747424105,
+     "requests_per_event": 68.2,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.015,
+     "p_any_unsafe": 0.015,
+     "exposure_window_s": 0.05394445806166573,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.985067943609044,
+     "overhead_p95_ms": 23.114352190231383,
+     "requests_per_event": 67.58,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.501766440653014,
+     "overhead_p95_ms": 90.09689156319473,
+     "requests_per_event": 67.68,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.685,
+    "60": 0.8,
+    "300": 1.84,
+    "900": 4.815,
+    "3600": 17.12
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.035,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.02,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.04,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.06,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.005,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.0,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.02,
+     "S3": 0.02,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.125,
+     "S3": 0.115,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.29,
+     "S3": 0.285,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.005,
+    "0.05": 0.015,
+    "0.1": 0.02,
+    "0.25": 0.06
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 91.055,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 11.08,
+     "checks_per_request": 8.048844691430244
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 2.295,
+     "checks_per_request": 38.2474407721556
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 0.47,
+     "checks_per_request": 151.4953933898801
+    }
+   }
+  }
+ },
+ {
+  "chat": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 2.895,
+     "p_any_unsafe": 0.805,
+     "exposure_window_s": 106.23070222898444,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 205.655,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.13,
+     "p_any_unsafe": 0.13,
+     "exposure_window_s": 0.6072248244526816,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 205.985,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.035,
+     "p_any_unsafe": 0.035,
+     "exposure_window_s": 0.06507222578884467,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.02399839286984,
+     "overhead_p95_ms": 22.835770004539402,
+     "requests_per_event": 206.35,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.05,
+     "p_any_unsafe": 0.05,
+     "exposure_window_s": 0.10024554050499092,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.975878466221015,
+     "overhead_p95_ms": 22.604399951780625,
+     "requests_per_event": 205.35,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.78991440376984,
+     "overhead_p95_ms": 91.29928558855671,
+     "requests_per_event": 204.035,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.11,
+    "60": 0.495,
+    "300": 3.075,
+    "900": 9.225,
+    "3600": 35.37
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.015,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.03,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.07,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.09,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.0,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.025,
+     "S3": 0.015,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.03,
+     "S3": 0.025,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.125,
+     "S3": 0.125,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.36,
+     "S3": 0.36,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.0,
+    "0.1": 0.01,
+    "0.25": 0.03
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 32.855,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 13.045,
+     "checks_per_request": 1.0273614541617706
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 7.77,
+     "checks_per_request": 2.5141123714059614
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 2.355,
+     "checks_per_request": 8.571137382796575
+    }
+   }
+  },
+  "agentic": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 2.09,
+     "p_any_unsafe": 0.925,
+     "exposure_window_s": 179.31764896425634,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 68.105,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.64,
+     "p_any_unsafe": 0.64,
+     "exposure_window_s": 37.38810844780293,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.33,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.02,
+     "p_any_unsafe": 0.02,
+     "exposure_window_s": 0.05767807279475619,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.034780559404783,
+     "overhead_p95_ms": 22.659161364342793,
+     "requests_per_event": 66.79,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.01,
+     "p_any_unsafe": 0.01,
+     "exposure_window_s": 0.041783262465444296,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.046902920847746,
+     "overhead_p95_ms": 22.55685480884423,
+     "requests_per_event": 67.25,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.7030436385604,
+     "overhead_p95_ms": 91.17105435562767,
+     "requests_per_event": 67.04,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.65,
+    "60": 0.815,
+    "300": 1.92,
+    "900": 4.53,
+    "3600": 15.92
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.02,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.015,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.04,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.045,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.005,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.015,
+     "S3": 0.01,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.015,
+     "S3": 0.015,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.125,
+     "S3": 0.12,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.28,
+     "S3": 0.275,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.005,
+    "0.05": 0.005,
+    "0.1": 0.01,
+    "0.25": 0.025
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 95.52,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 9.85,
+     "checks_per_request": 8.058021232674728
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 2.255,
+     "checks_per_request": 38.31849012090829
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 0.49,
+     "checks_per_request": 151.76924211147156
+    }
+   }
+  }
+ },
+ {
+  "chat": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 3.13,
+     "p_any_unsafe": 0.805,
+     "exposure_window_s": 116.92004959852667,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 205.645,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.135,
+     "p_any_unsafe": 0.13,
+     "exposure_window_s": 0.6316859659480554,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 206.02,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.06,
+     "p_any_unsafe": 0.06,
+     "exposure_window_s": 0.08541671235137528,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.972964605341252,
+     "overhead_p95_ms": 22.84991431144704,
+     "requests_per_event": 206.215,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.05,
+     "p_any_unsafe": 0.05,
+     "exposure_window_s": 0.07503990971525809,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.986131480457017,
+     "overhead_p95_ms": 22.716126384097116,
+     "requests_per_event": 205.185,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.89544467846483,
+     "overhead_p95_ms": 91.71626103432801,
+     "requests_per_event": 204.435,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.145,
+    "60": 0.55,
+    "300": 3.345,
+    "900": 9.005,
+    "3600": 38.12
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.05,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.01,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.1,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.125,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.015,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.015,
+     "S3": 0.005,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.01,
+     "S3": 0.005,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.185,
+     "S3": 0.165,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.36,
+     "S3": 0.36,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.0,
+    "0.1": 0.0,
+    "0.25": 0.02
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 30.565,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 12.245,
+     "checks_per_request": 1.0274904214559386
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 5.2,
+     "checks_per_request": 2.5173132183908047
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 1.12,
+     "checks_per_request": 8.58515325670498
+    }
+   }
+  },
+  "agentic": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 1.85,
+     "p_any_unsafe": 0.93,
+     "exposure_window_s": 174.680004462691,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.705,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.66,
+     "p_any_unsafe": 0.66,
+     "exposure_window_s": 38.91473016408446,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.885,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.025,
+     "p_any_unsafe": 0.025,
+     "exposure_window_s": 0.09259692828912876,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.997349072741882,
+     "overhead_p95_ms": 22.490605082905223,
+     "requests_per_event": 67.235,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.02,
+     "p_any_unsafe": 0.02,
+     "exposure_window_s": 0.04960294086900149,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.021120640169865,
+     "overhead_p95_ms": 22.554821533988736,
+     "requests_per_event": 68.055,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 39.985626152015634,
+     "overhead_p95_ms": 90.49655387477621,
+     "requests_per_event": 67.84,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.645,
+    "60": 0.77,
+    "300": 1.91,
+    "900": 4.5,
+    "3600": 17.19
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.025,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.02,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.055,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.05,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.005,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.005,
+     "S3": 0.005,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.02,
+     "S3": 0.02,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.12,
+     "S3": 0.1,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.175,
+     "S3": 0.175,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.005,
+    "0.1": 0.03,
+    "0.25": 0.085
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 92.6,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 10.835,
+     "checks_per_request": 8.20815868263473
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 2.27,
+     "checks_per_request": 39.039520958083834
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 0.505,
+     "checks_per_request": 154.6556137724551
+    }
+   }
+  }
+ },
+ {
+  "chat": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 3.275,
+     "p_any_unsafe": 0.82,
+     "exposure_window_s": 116.28475939715341,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 205.94,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.13,
+     "p_any_unsafe": 0.125,
+     "exposure_window_s": 0.507618521969215,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 206.615,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.06,
+     "p_any_unsafe": 0.06,
+     "exposure_window_s": 0.07835721711181691,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.959460532111098,
+     "overhead_p95_ms": 22.75642217594066,
+     "requests_per_event": 206.48,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.025,
+     "p_any_unsafe": 0.025,
+     "exposure_window_s": 0.013441598869110293,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.028088507978577,
+     "overhead_p95_ms": 22.782135873507936,
+     "requests_per_event": 205.48,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 40.041710041474545,
+     "overhead_p95_ms": 91.21826239206116,
+     "requests_per_event": 206.17,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.18,
+    "60": 0.51,
+    "300": 2.75,
+    "900": 9.505,
+    "3600": 37.855
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.035,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.07,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.055,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.095,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.015,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.04,
+     "S3": 0.02,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.07,
+     "S3": 0.055,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.17,
+     "S3": 0.17,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.35,
+     "S3": 0.345,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.005,
+    "0.1": 0.01,
+    "0.25": 0.01
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 32.995,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 18.035,
+     "checks_per_request": 1.0281781963056864
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 6.72,
+     "checks_per_request": 2.51437884824339
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 1.66,
+     "checks_per_request": 8.580707473137752
+    }
+   }
+  },
+  "agentic": {
+   "main": {
+    "S0 Retrieval check, cached entitlements (TTL)": {
+     "unsafe_per_event": 1.93,
+     "p_any_unsafe": 0.885,
+     "exposure_window_s": 158.03682185479923,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.89,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S1 Retrieval check, live": {
+     "unsafe_per_event": 0.65,
+     "p_any_unsafe": 0.65,
+     "exposure_window_s": 39.15529127626156,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 0.0,
+     "overhead_p95_ms": 0.0,
+     "requests_per_event": 67.755,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S2 S1 + non-atomic release recheck": {
+     "unsafe_per_event": 0.015,
+     "p_any_unsafe": 0.015,
+     "exposure_window_s": 0.025505890764450215,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 9.922308460509306,
+     "overhead_p95_ms": 22.735219449173126,
+     "requests_per_event": 67.805,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S3 S1 + atomic gate on replica": {
+     "unsafe_per_event": 0.035,
+     "p_any_unsafe": 0.035,
+     "exposure_window_s": 0.07359983553001825,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 10.032303867034203,
+     "overhead_p95_ms": 22.266459832884554,
+     "requests_per_event": 67.685,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    },
+    "S4 S1 + atomic gate on authority (fenced)": {
+     "unsafe_per_event": 0.0,
+     "p_any_unsafe": 0.0,
+     "exposure_window_s": 0.0,
+     "leaked_tokens_per_event": 0.0,
+     "overhead_p50_ms": 40.00372105344916,
+     "overhead_p95_ms": 91.25037170611397,
+     "requests_per_event": 67.44,
+     "checks_per_request": 0.0,
+     "n_events": 200
+    }
+   },
+   "ttl": {
+    "0": 0.64,
+    "60": 0.77,
+    "300": 1.73,
+    "900": 4.795,
+    "3600": 16.845
+   },
+   "delta": {
+    "0.05": {
+     "S2": 0.02,
+     "S4": 0.0
+    },
+    "0.3": {
+     "S2": 0.03,
+     "S4": 0.0
+    },
+    "1.0": {
+     "S2": 0.03,
+     "S4": 0.0
+    },
+    "3.0": {
+     "S2": 0.055,
+     "S4": 0.0
+    }
+   },
+   "lag": {
+    "0.0": {
+     "S2": 0.0,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "0.5": {
+     "S2": 0.015,
+     "S3": 0.0,
+     "S4": 0.0
+    },
+    "2.0": {
+     "S2": 0.03,
+     "S3": 0.025,
+     "S4": 0.0
+    },
+    "10.0": {
+     "S2": 0.07,
+     "S3": 0.07,
+     "S4": 0.0
+    },
+    "30.0": {
+     "S2": 0.32,
+     "S3": 0.315,
+     "S4": 0.0
+    }
+   },
+   "provenance": {
+    "0.0": 0.0,
+    "0.01": 0.0,
+    "0.05": 0.0,
+    "0.1": 0.005,
+    "0.25": 0.045
+   },
+   "stream": {
+    "none": {
+     "leaked_tokens_per_event": 102.45,
+     "checks_per_request": 0.0
+    },
+    "10.0": {
+     "leaked_tokens_per_event": 13.145,
+     "checks_per_request": 8.086930983847283
+    },
+    "2.0": {
+     "leaked_tokens_per_event": 2.39,
+     "checks_per_request": 38.43127753303965
+    },
+    "0.5": {
+     "leaked_tokens_per_event": 0.6,
+     "checks_per_request": 152.23619676945668
+    }
+   }
+  }
+ }
+]

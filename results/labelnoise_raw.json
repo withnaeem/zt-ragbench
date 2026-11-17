@@ -1,0 +1,1237 @@
+[
+ {
+  "0.0": {
+   "A4": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8486666666666667,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8486666666666667,
+     "fill": 0.998
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.999
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8333333333333334,
+     "fill": 0.9858666666666668
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9876
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.01,
+    "doc": 0.054
+   },
+   "n_mislabelled": 0
+  },
+  "0.01": {
+   "A4": {
+    "benign": {
+     "exposure": 0.02666666666666667,
+     "unauth_per_q": 0.028,
+     "target_hit": 0.848,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.049,
+     "unauth_per_q": 0.067,
+     "target_hit": 0.011,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.02666666666666667,
+     "unauth_per_q": 0.028,
+     "target_hit": 0.848,
+     "fill": 0.998
+    },
+    "insider": {
+     "exposure": 0.049,
+     "unauth_per_q": 0.062,
+     "target_hit": 0.011,
+     "fill": 0.998
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.019333333333333334,
+     "unauth_per_q": 0.020666666666666667,
+     "target_hit": 0.8326666666666667,
+     "fill": 0.9844
+    },
+    "insider": {
+     "exposure": 0.027,
+     "unauth_per_q": 0.038,
+     "target_hit": 0.008,
+     "fill": 0.9818000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.01,
+    "doc": 0.054
+   },
+   "n_mislabelled": 36
+  },
+  "0.02": {
+   "A4": {
+    "benign": {
+     "exposure": 0.05,
+     "unauth_per_q": 0.054,
+     "target_hit": 0.848,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.097,
+     "unauth_per_q": 0.142,
+     "target_hit": 0.023,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.05,
+     "unauth_per_q": 0.054,
+     "target_hit": 0.848,
+     "fill": 0.998
+    },
+    "insider": {
+     "exposure": 0.097,
+     "unauth_per_q": 0.13,
+     "target_hit": 0.023,
+     "fill": 0.9965999999999999
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.034666666666666665,
+     "unauth_per_q": 0.03866666666666667,
+     "target_hit": 0.8326666666666667,
+     "fill": 0.9829333333333334
+    },
+    "insider": {
+     "exposure": 0.055,
+     "unauth_per_q": 0.08,
+     "target_hit": 0.014,
+     "fill": 0.9754
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.01,
+    "doc": 0.05333333333333334
+   },
+   "n_mislabelled": 65
+  },
+  "0.05": {
+   "A4": {
+    "benign": {
+     "exposure": 0.128,
+     "unauth_per_q": 0.144,
+     "target_hit": 0.8426666666666667,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.205,
+     "unauth_per_q": 0.319,
+     "target_hit": 0.049,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.128,
+     "unauth_per_q": 0.142,
+     "target_hit": 0.8426666666666667,
+     "fill": 0.9976
+    },
+    "insider": {
+     "exposure": 0.204,
+     "unauth_per_q": 0.286,
+     "target_hit": 0.049,
+     "fill": 0.993
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.08933333333333333,
+     "unauth_per_q": 0.098,
+     "target_hit": 0.8273333333333334,
+     "fill": 0.9765333333333335
+    },
+    "insider": {
+     "exposure": 0.114,
+     "unauth_per_q": 0.17,
+     "target_hit": 0.026,
+     "fill": 0.9582
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.01,
+    "doc": 0.05466666666666667
+   },
+   "n_mislabelled": 156
+  },
+  "0.1": {
+   "A4": {
+    "benign": {
+     "exposure": 0.21866666666666668,
+     "unauth_per_q": 0.25533333333333336,
+     "target_hit": 0.8393333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.353,
+     "unauth_per_q": 0.632,
+     "target_hit": 0.109,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.21733333333333332,
+     "unauth_per_q": 0.25133333333333335,
+     "target_hit": 0.8393333333333334,
+     "fill": 0.9970666666666668
+    },
+    "insider": {
+     "exposure": 0.352,
+     "unauth_per_q": 0.557,
+     "target_hit": 0.109,
+     "fill": 0.9846
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.14,
+     "unauth_per_q": 0.15733333333333333,
+     "target_hit": 0.822,
+     "fill": 0.9652000000000002
+    },
+    "insider": {
+     "exposure": 0.206,
+     "unauth_per_q": 0.323,
+     "target_hit": 0.049,
+     "fill": 0.9256
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.010666666666666666,
+    "doc": 0.05733333333333333
+   },
+   "n_mislabelled": 313
+  }
+ },
+ {
+  "0.0": {
+   "A4": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8493333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8493333333333334,
+     "fill": 0.9986666666666667
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.999
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.834,
+     "fill": 0.9874666666666667
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9887999999999999
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.052
+   },
+   "n_mislabelled": 0
+  },
+  "0.01": {
+   "A4": {
+    "benign": {
+     "exposure": 0.013333333333333334,
+     "unauth_per_q": 0.014,
+     "target_hit": 0.8486666666666667,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.047,
+     "unauth_per_q": 0.061,
+     "target_hit": 0.008,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.012666666666666666,
+     "unauth_per_q": 0.013333333333333334,
+     "target_hit": 0.8486666666666667,
+     "fill": 0.9985333333333333
+    },
+    "insider": {
+     "exposure": 0.047,
+     "unauth_per_q": 0.056,
+     "target_hit": 0.008,
+     "fill": 0.9984000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.005333333333333333,
+     "unauth_per_q": 0.006,
+     "target_hit": 0.8333333333333334,
+     "fill": 0.9857333333333332
+    },
+    "insider": {
+     "exposure": 0.022,
+     "unauth_per_q": 0.03,
+     "target_hit": 0.002,
+     "fill": 0.9830000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.05266666666666667
+   },
+   "n_mislabelled": 27
+  },
+  "0.02": {
+   "A4": {
+    "benign": {
+     "exposure": 0.03333333333333333,
+     "unauth_per_q": 0.035333333333333335,
+     "target_hit": 0.8473333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.093,
+     "unauth_per_q": 0.129,
+     "target_hit": 0.018,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.03266666666666666,
+     "unauth_per_q": 0.034666666666666665,
+     "target_hit": 0.8473333333333334,
+     "fill": 0.9985333333333333
+    },
+    "insider": {
+     "exposure": 0.093,
+     "unauth_per_q": 0.116,
+     "target_hit": 0.018,
+     "fill": 0.997
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.013333333333333334,
+     "unauth_per_q": 0.014,
+     "target_hit": 0.832,
+     "fill": 0.9828
+    },
+    "insider": {
+     "exposure": 0.035,
+     "unauth_per_q": 0.052,
+     "target_hit": 0.006,
+     "fill": 0.9742000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.054
+   },
+   "n_mislabelled": 54
+  },
+  "0.05": {
+   "A4": {
+    "benign": {
+     "exposure": 0.08266666666666667,
+     "unauth_per_q": 0.086,
+     "target_hit": 0.8446666666666667,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.182,
+     "unauth_per_q": 0.261,
+     "target_hit": 0.038,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.082,
+     "unauth_per_q": 0.08533333333333333,
+     "target_hit": 0.8446666666666667,
+     "fill": 0.9984
+    },
+    "insider": {
+     "exposure": 0.182,
+     "unauth_per_q": 0.234,
+     "target_hit": 0.038,
+     "fill": 0.9942000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.036,
+     "unauth_per_q": 0.038,
+     "target_hit": 0.8273333333333334,
+     "fill": 0.9765333333333333
+    },
+    "insider": {
+     "exposure": 0.07,
+     "unauth_per_q": 0.106,
+     "target_hit": 0.015,
+     "fill": 0.9588000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.007333333333333333,
+    "doc": 0.058
+   },
+   "n_mislabelled": 128
+  },
+  "0.1": {
+   "A4": {
+    "benign": {
+     "exposure": 0.192,
+     "unauth_per_q": 0.21133333333333335,
+     "target_hit": 0.8413333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.361,
+     "unauth_per_q": 0.574,
+     "target_hit": 0.095,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.192,
+     "unauth_per_q": 0.21,
+     "target_hit": 0.8413333333333334,
+     "fill": 0.9982666666666665
+    },
+    "insider": {
+     "exposure": 0.36,
+     "unauth_per_q": 0.522,
+     "target_hit": 0.095,
+     "fill": 0.9892000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.102,
+     "unauth_per_q": 0.11066666666666666,
+     "target_hit": 0.8233333333333334,
+     "fill": 0.9658666666666668
+    },
+    "insider": {
+     "exposure": 0.196,
+     "unauth_per_q": 0.297,
+     "target_hit": 0.043,
+     "fill": 0.9344
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.007333333333333333,
+    "doc": 0.058666666666666666
+   },
+   "n_mislabelled": 282
+  }
+ },
+ {
+  "0.0": {
+   "A4": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8366666666666667,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8366666666666667,
+     "fill": 0.9986666666666667
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9994000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8226666666666667,
+     "fill": 0.986
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9894
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.06
+   },
+   "n_mislabelled": 0
+  },
+  "0.01": {
+   "A4": {
+    "benign": {
+     "exposure": 0.03,
+     "unauth_per_q": 0.032,
+     "target_hit": 0.836,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.061,
+     "unauth_per_q": 0.076,
+     "target_hit": 0.01,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.03,
+     "unauth_per_q": 0.032,
+     "target_hit": 0.836,
+     "fill": 0.9986666666666667
+    },
+    "insider": {
+     "exposure": 0.061,
+     "unauth_per_q": 0.071,
+     "target_hit": 0.01,
+     "fill": 0.9985999999999999
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.016,
+     "unauth_per_q": 0.018,
+     "target_hit": 0.822,
+     "fill": 0.9829333333333334
+    },
+    "insider": {
+     "exposure": 0.036,
+     "unauth_per_q": 0.044,
+     "target_hit": 0.006,
+     "fill": 0.9832000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.06133333333333333
+   },
+   "n_mislabelled": 35
+  },
+  "0.02": {
+   "A4": {
+    "benign": {
+     "exposure": 0.056,
+     "unauth_per_q": 0.06,
+     "target_hit": 0.8353333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.119,
+     "unauth_per_q": 0.159,
+     "target_hit": 0.026,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.056,
+     "unauth_per_q": 0.06,
+     "target_hit": 0.8353333333333334,
+     "fill": 0.9985333333333333
+    },
+    "insider": {
+     "exposure": 0.118,
+     "unauth_per_q": 0.141,
+     "target_hit": 0.026,
+     "fill": 0.9962000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.02666666666666667,
+     "unauth_per_q": 0.029333333333333333,
+     "target_hit": 0.8206666666666667,
+     "fill": 0.9790666666666666
+    },
+    "insider": {
+     "exposure": 0.047,
+     "unauth_per_q": 0.059,
+     "target_hit": 0.009,
+     "fill": 0.9696
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.007333333333333333,
+    "doc": 0.062
+   },
+   "n_mislabelled": 74
+  },
+  "0.05": {
+   "A4": {
+    "benign": {
+     "exposure": 0.12066666666666667,
+     "unauth_per_q": 0.13466666666666666,
+     "target_hit": 0.8333333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.223,
+     "unauth_per_q": 0.338,
+     "target_hit": 0.058,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.11866666666666667,
+     "unauth_per_q": 0.13133333333333333,
+     "target_hit": 0.8333333333333334,
+     "fill": 0.9977333333333332
+    },
+    "insider": {
+     "exposure": 0.222,
+     "unauth_per_q": 0.305,
+     "target_hit": 0.058,
+     "fill": 0.9932000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.06466666666666666,
+     "unauth_per_q": 0.07266666666666667,
+     "target_hit": 0.8173333333333334,
+     "fill": 0.9721333333333334
+    },
+    "insider": {
+     "exposure": 0.118,
+     "unauth_per_q": 0.171,
+     "target_hit": 0.029,
+     "fill": 0.9562
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.008,
+    "doc": 0.06533333333333333
+   },
+   "n_mislabelled": 164
+  },
+  "0.1": {
+   "A4": {
+    "benign": {
+     "exposure": 0.20733333333333334,
+     "unauth_per_q": 0.24866666666666667,
+     "target_hit": 0.83,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.37,
+     "unauth_per_q": 0.602,
+     "target_hit": 0.104,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.20533333333333334,
+     "unauth_per_q": 0.244,
+     "target_hit": 0.83,
+     "fill": 0.9974666666666665
+    },
+    "insider": {
+     "exposure": 0.37,
+     "unauth_per_q": 0.557,
+     "target_hit": 0.104,
+     "fill": 0.9906
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.12066666666666667,
+     "unauth_per_q": 0.14,
+     "target_hit": 0.814,
+     "fill": 0.9629333333333332
+    },
+    "insider": {
+     "exposure": 0.219,
+     "unauth_per_q": 0.344,
+     "target_hit": 0.052,
+     "fill": 0.938
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.008,
+    "doc": 0.06533333333333333
+   },
+   "n_mislabelled": 313
+  }
+ },
+ {
+  "0.0": {
+   "A4": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8593333333333333,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8593333333333333,
+     "fill": 0.9994666666666667
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9992000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.848,
+     "fill": 0.9874666666666668
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9872000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.0026666666666666666,
+    "doc": 0.056666666666666664
+   },
+   "n_mislabelled": 0
+  },
+  "0.01": {
+   "A4": {
+    "benign": {
+     "exposure": 0.026,
+     "unauth_per_q": 0.02666666666666667,
+     "target_hit": 0.8573333333333333,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.045,
+     "unauth_per_q": 0.065,
+     "target_hit": 0.009,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.026,
+     "unauth_per_q": 0.02666666666666667,
+     "target_hit": 0.8573333333333333,
+     "fill": 0.9994666666666667
+    },
+    "insider": {
+     "exposure": 0.045,
+     "unauth_per_q": 0.06,
+     "target_hit": 0.009,
+     "fill": 0.9982000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.019333333333333334,
+     "unauth_per_q": 0.02,
+     "target_hit": 0.846,
+     "fill": 0.9861333333333334
+    },
+    "insider": {
+     "exposure": 0.026,
+     "unauth_per_q": 0.04,
+     "target_hit": 0.004,
+     "fill": 0.9822000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.0026666666666666666,
+    "doc": 0.056666666666666664
+   },
+   "n_mislabelled": 29
+  },
+  "0.02": {
+   "A4": {
+    "benign": {
+     "exposure": 0.05466666666666667,
+     "unauth_per_q": 0.056666666666666664,
+     "target_hit": 0.8573333333333333,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.097,
+     "unauth_per_q": 0.137,
+     "target_hit": 0.019,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.05466666666666667,
+     "unauth_per_q": 0.056666666666666664,
+     "target_hit": 0.8573333333333333,
+     "fill": 0.9994666666666667
+    },
+    "insider": {
+     "exposure": 0.097,
+     "unauth_per_q": 0.123,
+     "target_hit": 0.019,
+     "fill": 0.9964
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.030666666666666665,
+     "unauth_per_q": 0.03266666666666666,
+     "target_hit": 0.8453333333333334,
+     "fill": 0.9824
+    },
+    "insider": {
+     "exposure": 0.042,
+     "unauth_per_q": 0.059,
+     "target_hit": 0.006,
+     "fill": 0.972
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.0026666666666666666,
+    "doc": 0.058
+   },
+   "n_mislabelled": 63
+  },
+  "0.05": {
+   "A4": {
+    "benign": {
+     "exposure": 0.10333333333333333,
+     "unauth_per_q": 0.10933333333333334,
+     "target_hit": 0.8553333333333333,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.192,
+     "unauth_per_q": 0.288,
+     "target_hit": 0.047,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.10333333333333333,
+     "unauth_per_q": 0.10933333333333334,
+     "target_hit": 0.8553333333333333,
+     "fill": 0.9994666666666667
+    },
+    "insider": {
+     "exposure": 0.192,
+     "unauth_per_q": 0.264,
+     "target_hit": 0.047,
+     "fill": 0.9944
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.06133333333333333,
+     "unauth_per_q": 0.06466666666666666,
+     "target_hit": 0.8433333333333334,
+     "fill": 0.9781333333333332
+    },
+    "insider": {
+     "exposure": 0.106,
+     "unauth_per_q": 0.153,
+     "target_hit": 0.02,
+     "fill": 0.9608
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.0026666666666666666,
+    "doc": 0.058666666666666666
+   },
+   "n_mislabelled": 133
+  },
+  "0.1": {
+   "A4": {
+    "benign": {
+     "exposure": 0.20733333333333334,
+     "unauth_per_q": 0.23733333333333334,
+     "target_hit": 0.85,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.334,
+     "unauth_per_q": 0.545,
+     "target_hit": 0.094,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.20733333333333334,
+     "unauth_per_q": 0.23666666666666666,
+     "target_hit": 0.85,
+     "fill": 0.9992000000000001
+    },
+    "insider": {
+     "exposure": 0.334,
+     "unauth_per_q": 0.493,
+     "target_hit": 0.094,
+     "fill": 0.9888000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.116,
+     "unauth_per_q": 0.13066666666666665,
+     "target_hit": 0.838,
+     "fill": 0.9653333333333334
+    },
+    "insider": {
+     "exposure": 0.186,
+     "unauth_per_q": 0.279,
+     "target_hit": 0.039,
+     "fill": 0.9344000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.0033333333333333335,
+    "doc": 0.059333333333333335
+   },
+   "n_mislabelled": 282
+  }
+ },
+ {
+  "0.0": {
+   "A4": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8553333333333333,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8553333333333333,
+     "fill": 0.9985333333333333
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9972
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.8386666666666667,
+     "fill": 0.9844
+    },
+    "insider": {
+     "exposure": 0.0,
+     "unauth_per_q": 0.0,
+     "target_hit": 0.0,
+     "fill": 0.9806000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.007333333333333333,
+    "doc": 0.066
+   },
+   "n_mislabelled": 0
+  },
+  "0.01": {
+   "A4": {
+    "benign": {
+     "exposure": 0.034,
+     "unauth_per_q": 0.036,
+     "target_hit": 0.8533333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.064,
+     "unauth_per_q": 0.092,
+     "target_hit": 0.016,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.034,
+     "unauth_per_q": 0.036,
+     "target_hit": 0.8533333333333334,
+     "fill": 0.9986666666666667
+    },
+    "insider": {
+     "exposure": 0.062,
+     "unauth_per_q": 0.085,
+     "target_hit": 0.016,
+     "fill": 0.9962000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.018666666666666668,
+     "unauth_per_q": 0.02,
+     "target_hit": 0.8373333333333334,
+     "fill": 0.9806666666666667
+    },
+    "insider": {
+     "exposure": 0.04,
+     "unauth_per_q": 0.059,
+     "target_hit": 0.009,
+     "fill": 0.974
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.06933333333333333
+   },
+   "n_mislabelled": 34
+  },
+  "0.02": {
+   "A4": {
+    "benign": {
+     "exposure": 0.056666666666666664,
+     "unauth_per_q": 0.06066666666666667,
+     "target_hit": 0.8513333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.096,
+     "unauth_per_q": 0.136,
+     "target_hit": 0.024,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.056666666666666664,
+     "unauth_per_q": 0.06066666666666667,
+     "target_hit": 0.8513333333333334,
+     "fill": 0.9986666666666667
+    },
+    "insider": {
+     "exposure": 0.094,
+     "unauth_per_q": 0.126,
+     "target_hit": 0.024,
+     "fill": 0.9956
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.03266666666666666,
+     "unauth_per_q": 0.034666666666666665,
+     "target_hit": 0.8353333333333334,
+     "fill": 0.9784
+    },
+    "insider": {
+     "exposure": 0.057,
+     "unauth_per_q": 0.082,
+     "target_hit": 0.012,
+     "fill": 0.97
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.07066666666666667
+   },
+   "n_mislabelled": 64
+  },
+  "0.05": {
+   "A4": {
+    "benign": {
+     "exposure": 0.12733333333333333,
+     "unauth_per_q": 0.136,
+     "target_hit": 0.8493333333333334,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.214,
+     "unauth_per_q": 0.302,
+     "target_hit": 0.048,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.12666666666666668,
+     "unauth_per_q": 0.13466666666666666,
+     "target_hit": 0.8493333333333334,
+     "fill": 0.9984
+    },
+    "insider": {
+     "exposure": 0.213,
+     "unauth_per_q": 0.285,
+     "target_hit": 0.048,
+     "fill": 0.9942000000000001
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.07466666666666667,
+     "unauth_per_q": 0.08,
+     "target_hit": 0.8333333333333334,
+     "fill": 0.9722666666666667
+    },
+    "insider": {
+     "exposure": 0.138,
+     "unauth_per_q": 0.198,
+     "target_hit": 0.033,
+     "fill": 0.9604000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.07133333333333333
+   },
+   "n_mislabelled": 155
+  },
+  "0.1": {
+   "A4": {
+    "benign": {
+     "exposure": 0.21,
+     "unauth_per_q": 0.24066666666666667,
+     "target_hit": 0.8446666666666667,
+     "fill": 1.0
+    },
+    "insider": {
+     "exposure": 0.385,
+     "unauth_per_q": 0.621,
+     "target_hit": 0.108,
+     "fill": 1.0
+    }
+   },
+   "A5_chunk": {
+    "benign": {
+     "exposure": 0.20933333333333334,
+     "unauth_per_q": 0.23866666666666667,
+     "target_hit": 0.8446666666666667,
+     "fill": 0.9982666666666667
+    },
+    "insider": {
+     "exposure": 0.382,
+     "unauth_per_q": 0.576,
+     "target_hit": 0.108,
+     "fill": 0.9886
+    }
+   },
+   "A5": {
+    "benign": {
+     "exposure": 0.12933333333333333,
+     "unauth_per_q": 0.14466666666666667,
+     "target_hit": 0.8286666666666667,
+     "fill": 0.9642666666666667
+    },
+    "insider": {
+     "exposure": 0.239,
+     "unauth_per_q": 0.372,
+     "target_hit": 0.068,
+     "fill": 0.9318000000000001
+    }
+   },
+   "benign_false_block": {
+    "chunk": 0.006666666666666667,
+    "doc": 0.07066666666666667
+   },
+   "n_mislabelled": 309
+  }
+ }
+]
